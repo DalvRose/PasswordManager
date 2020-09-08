@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UnlockView" customModule="_XPass" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UnlockView" customModule="_XPass" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJP-Mr-oY4">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                    <color key="backgroundColor" name="Color3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="EDL-sC-12U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                    <state key="normal" title="Unlock">
+                        <color key="titleColor" name="Color8"/>
+                    </state>
+                    <connections>
+                        <action selector="daidTapUnlockButton:" destination="-1" eventType="touchUpInside" id="3i1-0y-KJK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SJP-Mr-oY4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Ao0-u9-kLE"/>
+                <constraint firstItem="SJP-Mr-oY4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Bzj-55-WBV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="SJP-Mr-oY4" secondAttribute="bottom" id="QGu-E0-rbL"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SJP-Mr-oY4" secondAttribute="trailing" id="zns-aM-eB3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="unlockButton" destination="SJP-Mr-oY4" id="ZPV-cr-BkF"/>
+            </connections>
+            <point key="canvasLocation" x="138.75" y="430.625"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="Color3">
+            <color red="0.0" green="0.46666666666666667" blue="0.71372549019607845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color8">
+            <color red="0.792156862745098" green="0.94117647058823528" blue="0.97254901960784312" alpha="0.37173065543174744" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

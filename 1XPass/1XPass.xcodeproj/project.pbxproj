@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54CD85D24FFF58600301F03 /* SetupPasswordVC+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD85C24FFF58600301F03 /* SetupPasswordVC+UITableViewDataSource.swift */; };
+		F54CD86024FFFB0C00301F03 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD85F24FFFB0C00301F03 /* BaseViewController.swift */; };
+		F54CD86224FFFC3A00301F03 /* SetupPasswordRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD86124FFFC3A00301F03 /* SetupPasswordRowType.swift */; };
+		F585467824F7D9D20013F81B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585467724F7D9D20013F81B /* AppDelegate.swift */; };
+		F585468224F7D9D20013F81B /* _XPass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F585468024F7D9D20013F81B /* _XPass.xcdatamodeld */; };
+		F585468424F7D9D30013F81B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585468324F7D9D30013F81B /* Assets.xcassets */; };
+		F585468724F7D9D30013F81B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F585468524F7D9D30013F81B /* LaunchScreen.storyboard */; };
+		F585469224F7DACD0013F81B /* SetupPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585469124F7DACD0013F81B /* SetupPasswordViewController.swift */; };
+		F585469424F7DADD0013F81B /* SetupPasswordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F585469324F7DADD0013F81B /* SetupPasswordViewController.storyboard */; };
+		F585469C24F7E6EE0013F81B /* NSObject+StringFromClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585469B24F7E6EE0013F81B /* NSObject+StringFromClass.swift */; };
+		F59F5D0F2500516B000F9495 /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D0D2500516A000F9495 /* PasswordCell.swift */; };
+		F59F5D102500516B000F9495 /* PasswordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59F5D0E2500516A000F9495 /* PasswordCell.xib */; };
+		F59F5D1225011095000F9495 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D1125011095000F9495 /* DataSource.swift */; };
+		F59F5D15250110D4000F9495 /* PasswordListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D14250110D4000F9495 /* PasswordListDataSource.swift */; };
+		F59F5D1E25014DB9000F9495 /* UnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D1D25014DB9000F9495 /* UnlockView.swift */; };
+		F59F5D2025014DBF000F9495 /* UnlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59F5D1F25014DBF000F9495 /* UnlockView.xib */; };
+		F59F5D23250195E1000F9495 /* PasswordListVC+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D22250195E1000F9495 /* PasswordListVC+UITableViewDataSource.swift */; };
+		F59F5D2625019624000F9495 /* PasswordListVC+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D2525019624000F9495 /* PasswordListVC+UITableViewDelegate.swift */; };
+		F59F5D28250196D0000F9495 /* PasswordListVC+DataSourceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D27250196D0000F9495 /* PasswordListVC+DataSourceDelegate.swift */; };
+		F59F5D2B25019792000F9495 /* CellSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D2A25019792000F9495 /* CellSettings.swift */; };
+		F59F5D2F2501B5C6000F9495 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D2E2501B5C6000F9495 /* UITableView+Extension.swift */; };
+		F59F5D312501B5FC000F9495 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D302501B5FC000F9495 /* UIButton+Extension.swift */; };
+		F59F5D332501B62B000F9495 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D322501B62B000F9495 /* UIView+Extension.swift */; };
+		F59F5D352501B67E000F9495 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59F5D342501B67E000F9495 /* String+Extension.swift */; };
+		F5F2836F24FBFA80003A2A46 /* NumberSymbolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2836D24FBFA80003A2A46 /* NumberSymbolCell.swift */; };
+		F5F2837024FBFA80003A2A46 /* NumberSymbolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F2836E24FBFA80003A2A46 /* NumberSymbolCell.xib */; };
+		F5F2837324FBFE59003A2A46 /* PasswordAbilityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2837124FBFE59003A2A46 /* PasswordAbilityCell.swift */; };
+		F5F2837424FBFE59003A2A46 /* PasswordAbilityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F2837224FBFE59003A2A46 /* PasswordAbilityCell.xib */; };
+		F5F2837924FC00B4003A2A46 /* GeneratedPasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2837724FC00B4003A2A46 /* GeneratedPasswordCell.swift */; };
+		F5F2837A24FC00B4003A2A46 /* GeneratedPasswordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F2837824FC00B4003A2A46 /* GeneratedPasswordCell.xib */; };
+		F5F2837D24FC0234003A2A46 /* PasswordNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2837B24FC0234003A2A46 /* PasswordNameCell.swift */; };
+		F5F2837E24FC0234003A2A46 /* PasswordNameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5F2837C24FC0234003A2A46 /* PasswordNameCell.xib */; };
+		F5F2838024FC19E5003A2A46 /* PasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F2837F24FC19E5003A2A46 /* PasswordManager.swift */; };
+		F5FA39FE25003083003C5FC2 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FA39FD25003083003C5FC2 /* CoreDataManager.swift */; };
+		F5FA3A012500455B003C5FC2 /* PasswordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FA3A002500455B003C5FC2 /* PasswordListViewController.swift */; };
+		F5FA3A0325004567003C5FC2 /* PasswordListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FA3A0225004567003C5FC2 /* PasswordListViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F54CD85C24FFF58600301F03 /* SetupPasswordVC+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SetupPasswordVC+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		F54CD85F24FFFB0C00301F03 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		F54CD86124FFFC3A00301F03 /* SetupPasswordRowType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPasswordRowType.swift; sourceTree = "<group>"; };
+		F585467424F7D9D20013F81B /* 1XPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1XPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F585467724F7D9D20013F81B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F585468124F7D9D20013F81B /* _XPass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _XPass.xcdatamodel; sourceTree = "<group>"; };
+		F585468324F7D9D30013F81B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F585468624F7D9D30013F81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F585468824F7D9D30013F81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F585469124F7DACD0013F81B /* SetupPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupPasswordViewController.swift; sourceTree = "<group>"; };
+		F585469324F7DADD0013F81B /* SetupPasswordViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetupPasswordViewController.storyboard; sourceTree = "<group>"; };
+		F585469B24F7E6EE0013F81B /* NSObject+StringFromClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+StringFromClass.swift"; sourceTree = "<group>"; };
+		F59F5D0D2500516A000F9495 /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		F59F5D0E2500516A000F9495 /* PasswordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordCell.xib; sourceTree = "<group>"; };
+		F59F5D1125011095000F9495 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		F59F5D14250110D4000F9495 /* PasswordListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListDataSource.swift; sourceTree = "<group>"; };
+		F59F5D1D25014DB9000F9495 /* UnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnlockView.swift; sourceTree = "<group>"; };
+		F59F5D1F25014DBF000F9495 /* UnlockView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnlockView.xib; sourceTree = "<group>"; };
+		F59F5D22250195E1000F9495 /* PasswordListVC+UITableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordListVC+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		F59F5D2525019624000F9495 /* PasswordListVC+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordListVC+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		F59F5D27250196D0000F9495 /* PasswordListVC+DataSourceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PasswordListVC+DataSourceDelegate.swift"; sourceTree = "<group>"; };
+		F59F5D2A25019792000F9495 /* CellSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSettings.swift; sourceTree = "<group>"; };
+		F59F5D2E2501B5C6000F9495 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		F59F5D302501B5FC000F9495 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		F59F5D322501B62B000F9495 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		F59F5D342501B67E000F9495 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		F5F2836D24FBFA80003A2A46 /* NumberSymbolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSymbolCell.swift; sourceTree = "<group>"; };
+		F5F2836E24FBFA80003A2A46 /* NumberSymbolCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NumberSymbolCell.xib; sourceTree = "<group>"; };
+		F5F2837124FBFE59003A2A46 /* PasswordAbilityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordAbilityCell.swift; sourceTree = "<group>"; };
+		F5F2837224FBFE59003A2A46 /* PasswordAbilityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordAbilityCell.xib; sourceTree = "<group>"; };
+		F5F2837724FC00B4003A2A46 /* GeneratedPasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedPasswordCell.swift; sourceTree = "<group>"; };
+		F5F2837824FC00B4003A2A46 /* GeneratedPasswordCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneratedPasswordCell.xib; sourceTree = "<group>"; };
+		F5F2837B24FC0234003A2A46 /* PasswordNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordNameCell.swift; sourceTree = "<group>"; };
+		F5F2837C24FC0234003A2A46 /* PasswordNameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PasswordNameCell.xib; sourceTree = "<group>"; };
+		F5F2837F24FC19E5003A2A46 /* PasswordManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordManager.swift; sourceTree = "<group>"; };
+		F5FA39FD25003083003C5FC2 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F5FA3A002500455B003C5FC2 /* PasswordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordListViewController.swift; sourceTree = "<group>"; };
+		F5FA3A0225004567003C5FC2 /* PasswordListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PasswordListViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F585467124F7D9D20013F81B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9282EB4BC1BA709F115C9875 /* HappyCodingSupport */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HappyCodingSupport;
+			sourceTree = "<group>";
+		};
+		F54CD85E24FFFAED00301F03 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F54CD85F24FFFB0C00301F03 /* BaseViewController.swift */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		F585466B24F7D9D20013F81B = {
+			isa = PBXGroup;
+			children = (
+				F585467624F7D9D20013F81B /* 1XPass */,
+				F585467524F7D9D20013F81B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F585467524F7D9D20013F81B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F585467424F7D9D20013F81B /* 1XPass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F585467624F7D9D20013F81B /* 1XPass */ = {
+			isa = PBXGroup;
+			children = (
+				F585469924F7E68B0013F81B /* DataLayer */,
+				F585468E24F7DA4D0013F81B /* PresentationLayer */,
+				F585467724F7D9D20013F81B /* AppDelegate.swift */,
+				F585468324F7D9D30013F81B /* Assets.xcassets */,
+				F585468524F7D9D30013F81B /* LaunchScreen.storyboard */,
+				F585468824F7D9D30013F81B /* Info.plist */,
+				F585468024F7D9D20013F81B /* _XPass.xcdatamodeld */,
+				9282EB4BC1BA709F115C9875 /* HappyCodingSupport */,
+			);
+			path = 1XPass;
+			sourceTree = "<group>";
+		};
+		F585468E24F7DA4D0013F81B /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F54CD85E24FFFAED00301F03 /* BaseClasses */,
+				F5FA39FF25004533003C5FC2 /* PasswordList */,
+				F585468F24F7DA6F0013F81B /* SetupPassword */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		F585468F24F7DA6F0013F81B /* SetupPassword */ = {
+			isa = PBXGroup;
+			children = (
+				F585469624F7E0980013F81B /* Cells */,
+				F585469524F7E0810013F81B /* Extencions */,
+				F585469024F7DA880013F81B /* ViewController */,
+			);
+			path = SetupPassword;
+			sourceTree = "<group>";
+		};
+		F585469024F7DA880013F81B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F585469124F7DACD0013F81B /* SetupPasswordViewController.swift */,
+				F585469324F7DADD0013F81B /* SetupPasswordViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F585469524F7E0810013F81B /* Extencions */ = {
+			isa = PBXGroup;
+			children = (
+				F54CD85C24FFF58600301F03 /* SetupPasswordVC+UITableViewDataSource.swift */,
+			);
+			path = Extencions;
+			sourceTree = "<group>";
+		};
+		F585469624F7E0980013F81B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F54CD86124FFFC3A00301F03 /* SetupPasswordRowType.swift */,
+				F5F2837624FC009C003A2A46 /* PasswordNameCell */,
+				F5F2837524FC0075003A2A46 /* GeneratedPasswordCell */,
+				F585469824F7E0F00013F81B /* PasswordAbilityCell */,
+				F585469724F7E0D70013F81B /* NumberSymbolCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F585469724F7E0D70013F81B /* NumberSymbolCell */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2836D24FBFA80003A2A46 /* NumberSymbolCell.swift */,
+				F5F2836E24FBFA80003A2A46 /* NumberSymbolCell.xib */,
+			);
+			path = NumberSymbolCell;
+			sourceTree = "<group>";
+		};
+		F585469824F7E0F00013F81B /* PasswordAbilityCell */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2837124FBFE59003A2A46 /* PasswordAbilityCell.swift */,
+				F5F2837224FBFE59003A2A46 /* PasswordAbilityCell.xib */,
+			);
+			path = PasswordAbilityCell;
+			sourceTree = "<group>";
+		};
+		F585469924F7E68B0013F81B /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D2D2501B586000F9495 /* DataSource */,
+				F59F5D2C2501B570000F9495 /* Managers */,
+				F585469A24F7E6A40013F81B /* Extensions */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		F585469A24F7E6A40013F81B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F585469B24F7E6EE0013F81B /* NSObject+StringFromClass.swift */,
+				F59F5D2E2501B5C6000F9495 /* UITableView+Extension.swift */,
+				F59F5D302501B5FC000F9495 /* UIButton+Extension.swift */,
+				F59F5D322501B62B000F9495 /* UIView+Extension.swift */,
+				F59F5D342501B67E000F9495 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F59F5D0C25005151000F9495 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D0D2500516A000F9495 /* PasswordCell.swift */,
+				F59F5D0E2500516A000F9495 /* PasswordCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F59F5D13250110B7000F9495 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D14250110D4000F9495 /* PasswordListDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		F59F5D162501487C000F9495 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D1D25014DB9000F9495 /* UnlockView.swift */,
+				F59F5D1F25014DBF000F9495 /* UnlockView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F59F5D21250195C3000F9495 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D22250195E1000F9495 /* PasswordListVC+UITableViewDataSource.swift */,
+				F59F5D2525019624000F9495 /* PasswordListVC+UITableViewDelegate.swift */,
+				F59F5D27250196D0000F9495 /* PasswordListVC+DataSourceDelegate.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F59F5D292501977C000F9495 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D2A25019792000F9495 /* CellSettings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F59F5D2C2501B570000F9495 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2837F24FC19E5003A2A46 /* PasswordManager.swift */,
+				F5FA39FD25003083003C5FC2 /* CoreDataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F59F5D2D2501B586000F9495 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D1125011095000F9495 /* DataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		F5F2837524FC0075003A2A46 /* GeneratedPasswordCell */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2837724FC00B4003A2A46 /* GeneratedPasswordCell.swift */,
+				F5F2837824FC00B4003A2A46 /* GeneratedPasswordCell.xib */,
+			);
+			path = GeneratedPasswordCell;
+			sourceTree = "<group>";
+		};
+		F5F2837624FC009C003A2A46 /* PasswordNameCell */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2837B24FC0234003A2A46 /* PasswordNameCell.swift */,
+				F5F2837C24FC0234003A2A46 /* PasswordNameCell.xib */,
+			);
+			path = PasswordNameCell;
+			sourceTree = "<group>";
+		};
+		F5FA39FF25004533003C5FC2 /* PasswordList */ = {
+			isa = PBXGroup;
+			children = (
+				F59F5D292501977C000F9495 /* Model */,
+				F59F5D21250195C3000F9495 /* Extensions */,
+				F59F5D162501487C000F9495 /* View */,
+				F59F5D13250110B7000F9495 /* DataSource */,
+				F59F5D0C25005151000F9495 /* Cell */,
+				F5FA3A042500456D003C5FC2 /* ViewController */,
+			);
+			path = PasswordList;
+			sourceTree = "<group>";
+		};
+		F5FA3A042500456D003C5FC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5FA3A002500455B003C5FC2 /* PasswordListViewController.swift */,
+				F5FA3A0225004567003C5FC2 /* PasswordListViewController.storyboard */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F585467324F7D9D20013F81B /* 1XPass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F585468B24F7D9D30013F81B /* Build configuration list for PBXNativeTarget "1XPass" */;
+			buildPhases = (
+				F585467024F7D9D20013F81B /* Sources */,
+				F585467124F7D9D20013F81B /* Frameworks */,
+				F585467224F7D9D20013F81B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 1XPass;
+			productName = 1XPass;
+			productReference = F585467424F7D9D20013F81B /* 1XPass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F585466C24F7D9D20013F81B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Vlad;
+				TargetAttributes = {
+					F585467324F7D9D20013F81B = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F585466F24F7D9D20013F81B /* Build configuration list for PBXProject "1XPass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F585466B24F7D9D20013F81B;
+			productRefGroup = F585467524F7D9D20013F81B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F585467324F7D9D20013F81B /* 1XPass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F585467224F7D9D20013F81B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F585469424F7DADD0013F81B /* SetupPasswordViewController.storyboard in Resources */,
+				F5F2837E24FC0234003A2A46 /* PasswordNameCell.xib in Resources */,
+				F5F2837A24FC00B4003A2A46 /* GeneratedPasswordCell.xib in Resources */,
+				F5FA3A0325004567003C5FC2 /* PasswordListViewController.storyboard in Resources */,
+				F5F2837424FBFE59003A2A46 /* PasswordAbilityCell.xib in Resources */,
+				F585468724F7D9D30013F81B /* LaunchScreen.storyboard in Resources */,
+				F59F5D102500516B000F9495 /* PasswordCell.xib in Resources */,
+				F585468424F7D9D30013F81B /* Assets.xcassets in Resources */,
+				F59F5D2025014DBF000F9495 /* UnlockView.xib in Resources */,
+				F5F2837024FBFA80003A2A46 /* NumberSymbolCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F585467024F7D9D20013F81B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59F5D0F2500516B000F9495 /* PasswordCell.swift in Sources */,
+				F59F5D1225011095000F9495 /* DataSource.swift in Sources */,
+				F54CD86024FFFB0C00301F03 /* BaseViewController.swift in Sources */,
+				F5F2836F24FBFA80003A2A46 /* NumberSymbolCell.swift in Sources */,
+				F59F5D23250195E1000F9495 /* PasswordListVC+UITableViewDataSource.swift in Sources */,
+				F59F5D312501B5FC000F9495 /* UIButton+Extension.swift in Sources */,
+				F59F5D352501B67E000F9495 /* String+Extension.swift in Sources */,
+				F5F2838024FC19E5003A2A46 /* PasswordManager.swift in Sources */,
+				F5FA39FE25003083003C5FC2 /* CoreDataManager.swift in Sources */,
+				F59F5D28250196D0000F9495 /* PasswordListVC+DataSourceDelegate.swift in Sources */,
+				F54CD85D24FFF58600301F03 /* SetupPasswordVC+UITableViewDataSource.swift in Sources */,
+				F585468224F7D9D20013F81B /* _XPass.xcdatamodeld in Sources */,
+				F5F2837924FC00B4003A2A46 /* GeneratedPasswordCell.swift in Sources */,
+				F54CD86224FFFC3A00301F03 /* SetupPasswordRowType.swift in Sources */,
+				F59F5D332501B62B000F9495 /* UIView+Extension.swift in Sources */,
+				F59F5D2B25019792000F9495 /* CellSettings.swift in Sources */,
+				F585467824F7D9D20013F81B /* AppDelegate.swift in Sources */,
+				F585469C24F7E6EE0013F81B /* NSObject+StringFromClass.swift in Sources */,
+				F5F2837324FBFE59003A2A46 /* PasswordAbilityCell.swift in Sources */,
+				F59F5D1E25014DB9000F9495 /* UnlockView.swift in Sources */,
+				F59F5D2F2501B5C6000F9495 /* UITableView+Extension.swift in Sources */,
+				F5FA3A012500455B003C5FC2 /* PasswordListViewController.swift in Sources */,
+				F59F5D2625019624000F9495 /* PasswordListVC+UITableViewDelegate.swift in Sources */,
+				F59F5D15250110D4000F9495 /* PasswordListDataSource.swift in Sources */,
+				F585469224F7DACD0013F81B /* SetupPasswordViewController.swift in Sources */,
+				F5F2837D24FC0234003A2A46 /* PasswordNameCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F585468524F7D9D30013F81B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F585468624F7D9D30013F81B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F585468924F7D9D30013F81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F585468A24F7D9D30013F81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F585468C24F7D9D30013F81B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PPD9R972D;
+				INFOPLIST_FILE = 1XPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalv.rose.-XPass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F585468D24F7D9D30013F81B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PPD9R972D;
+				INFOPLIST_FILE = 1XPass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dalv.rose.-XPass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F585466F24F7D9D20013F81B /* Build configuration list for PBXProject "1XPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585468924F7D9D30013F81B /* Debug */,
+				F585468A24F7D9D30013F81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F585468B24F7D9D30013F81B /* Build configuration list for PBXNativeTarget "1XPass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585468C24F7D9D30013F81B /* Debug */,
+				F585468D24F7D9D30013F81B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F585468024F7D9D20013F81B /* _XPass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F585468124F7D9D20013F81B /* _XPass.xcdatamodel */,
+			);
+			currentVersion = F585468124F7D9D20013F81B /* _XPass.xcdatamodel */;
+			path = _XPass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F585466C24F7D9D20013F81B /* Project object */;
+}
